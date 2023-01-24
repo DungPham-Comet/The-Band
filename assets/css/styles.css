@@ -29,6 +29,10 @@ html{
 #header {
     height: 46px;
     background-color: #000;
+    position : fixed;
+    top : 0;
+    left : 0;
+    right : 0;
     
 }
 
@@ -104,7 +108,7 @@ html{
 }
 
 #slider {
-    
+    margin-top: 46px;
 }
 
 #content {
