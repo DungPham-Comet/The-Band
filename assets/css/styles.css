@@ -233,7 +233,8 @@ html{
 
 .places-list {
     margin-top: 32px;
-    margin: 32px -8px 0px
+    margin: 32px -8px 0px;
+    padding-bottom: 48px;
 }
 
 .place-item {
@@ -273,7 +274,17 @@ html{
 }
 
 .place-buy-btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+}
 
+.place-buy-btn:hover {
+    background-color: #ccc;
+    color: #000;
 }
 
 
